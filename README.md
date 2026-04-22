@@ -10,7 +10,7 @@ De esa forma me aseguro que siempre exista un camino válido desde la entrada (E
 
 ## ¿Qué algoritmo usé para resolverlo?
 
-Para resolver el laberinto utilicé el algoritmo **BFS (Breadth-First Search)**.
+Para resolver el laberinto utilicé el algoritmo **BFS**.
 Este algoritmo explora el tablero por niveles utilizando una cola y me permite encontrar el camino más corto entre la entrada y la salida.
 Durante la exploración registré el nodo padre de cada posición para luego reconstruir el camino final.
 
