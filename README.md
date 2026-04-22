@@ -3,10 +3,10 @@
 ## ¿Cómo generé el laberinto?
 
 Generé el laberinto utilizando el algoritmo **DFS (Depth-First Search)**.
-Comencé con una matriz completamente llena de muros (`#`) y, mediante DFS recursivo, fui rompiendo paredes para crear caminos.
+Comencé con una matriz completamente llena de muros (#) y, mediante DFS recursivo, fui rompiendo paredes para crear caminos.
 Recorrí las direcciones en orden aleatorio utilizando un generador de números aleatorios, lo que permite obtener laberintos distintos en cada ejecución.
 
-De esa forma me aseguro que siempre exista un camino válido desde la entrada (`E`) hasta la salida (`S`).
+De esa forma me aseguro que siempre exista un camino válido desde la entrada (E) hasta la salida (S).
 
 ## ¿Qué algoritmo usé para resolverlo?
 
